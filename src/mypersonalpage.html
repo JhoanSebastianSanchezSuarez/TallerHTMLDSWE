@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<head>    
+    <title>Mi Página Personal</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/style.css">
+</head>
+<body>
+    <!-- Cabecera -->
+    <header class="container-fluid" style="background-color: brown; height: 55px; margin-bottom: 20px;">
+        <h1 class="text-center" >Mi Página Personal</h1>
+    </header>
+
+    <!-- Sección de Presentación -->
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center" style="margin-bottom: 20px;">
+            <div class="col-3" style="text-align: right;">
+                <img src="img/imgMia.jpeg" alt="Mi Foto" class="img-fluid rounded-circle" style="width: 200px;">
+            </div>
+            <div class="col-6" style = "text-align: left;">
+                <h2>Quien soy?</h2>
+                <p>Soy Sebastian Sanchez, estudiante de 4to semestre de Ingeniería de Sistemas y Computación de la Universidad de los Andes. Estoy haciendo la opcion en astronomia en la misma Universidad. Tengo interes en el desarrollo web, gestion de bases de datos, computacion visual y diseño de UX (User Experencie) y UI (User Interface).
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-3">
+                <h3>Habilidades</h3>
+                <table class="table table-striped">
+                    <tr style="background-color: brown;">
+                        <th>Habilidad</th>
+                        <th>Detalles</th>
+                    </tr>
+                    <tr>
+                        <td style="background-color: rgb(200, 81, 81); color: whitesmoke;">Lenguajes de programación</td>
+                        <td>Java, Python, SQL.</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: rgb(200, 81, 81); color: whitesmoke;">Idiomas</td>
+                        <td>Español (Nativo), Inglés (B2), Aleman (A1)</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: rgb(200, 81, 81); color: whitesmoke;">Salud</td>
+                        <td>Primeros auxilios</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-6">
+                <h3>Educacion</h3>
+                <p>Pregrado en Ingenieria de Sistemas y Computacion </p>
+                <p style="font-size: 14px; font-weight: bold;">Universidad de los Andes (2022 - Actualidad)</p>
+                <p>Curso Python Essencials 1</p>
+                <p style="font-size: 14px; font-weight: bold;">Cisco Networking Academy (2022)</p>
+                <p>Diplomado de primeros auxilios y cuidado de adultos mayores</p>
+                <p style="font-size: 14px; font-weight: bold;">Universidad de los Llanos (2019)</p>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center" style="margin-bottom: 20px;">
+            <div class="col-3">
+                <h3>Hobbies</h3>
+                <ul>
+                    <li>Programacion creativa (Ilustracion y animacion interactiva)</li>
+                    <li>Cine y animacion</li>
+                    <li>Videojuegos</li>
+                </ul>
+            </div>
+            <div class="col-6">
+                <img id="imagen" src="img/cine.webp" alt="Imagen" style="width: 100%;" onclick="cambiarImagen()">
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center text-center">
+            <div class="col" style="margin-bottom: 20px;">
+                <h3>Proyectos</h3>
+                <a href="https://replit.com/@JhoanSebastia24/Proyecto-Final-PC?v=1" style="color: black;" target="_blank">Proyecto de programacion creativa: Navegando programacion creativa</a>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center text-center" style="margin-bottom: 20px;">
+                <img src="img/proy1.png" alt="Mi Foto" style="width: 40%;">
+        </div>
+        <div class="row justify-content-center align-items-center text-center" style="margin-bottom: 20px;">
+                <a href="https://editor.p5js.org/JhoanSebastianSanchezSuarez/full/sJM4_aDCV" style="color: black;" target="_blank">Proyecto de programacion creativa: Paisaje aleatorio</a>
+        </div>
+        <div class="row justify-content-center align-items-center text-center" style="margin-bottom: 20px;">
+                <img src="img/proy2.png" alt="Mi Foto" style="width: 40%;">
+        </div>
+        <div class="row justify-content-center align-items-center text-center" style="margin-bottom: 20px;">
+                <a href="https://editor.p5js.org/JhoanSebastianSanchezSuarez/full/2eZYx6rhV" style="color: black;" target="_blank">Proyecto de programacion creativa: Robot</a>
+        </div>
+        <div class="row justify-content-center align-items-center text-center" style="margin-bottom: 20px;">
+                <img src="img/proy3.png" alt="Mi Foto" style="width: 40%;">
+        </div>
+        <div class="row no-padding text-center align-items-center justify-content-center" style="background-color: brown; margin-top: 20px;">
+            <h4 class="text-center" style="margin-top: 20px;" >Contacto</h4>
+        </div>
+        <div class="row align-items-center text-center" style="background-color: brown; height: 80px;">
+            <div class="col-1"></div>
+            <div class="col-2">
+                <img src="img/email.jpg" alt="Mi Foto" style="width: 40px;" style="color: whitesmoke;">
+            </div>
+            <div class="col-2">
+                <a href="mailto:js.sanchezs12@uniandes.edu.co">Correo: js.sanchezs12@uniandes.edu.co</a>
+            </div>
+            <div class="col-2">
+                <img src="img/github.jpg" alt="Mi Foto" style="width: 40px; margin-left: 45px;">
+            </div>
+            <div class="col-2">
+                <a href="https://github.com/JhoanSebastianSanchezSuarez">Github: JhoanSebastianSanchezSuarez</a>
+            </div>
+            <div class="col-1"></div>
+        </div>
+        
+        
+        
+        <script>
+            var imagenes = [ "img/cine.webp", "img/animacion.jpg","img/videojuego.jpg", "img/programacionCreativa.jpg"];
+            var indice = 0;
+    
+            function cambiarImagen() {
+                indice = (indice + 1) % imagenes.length ;
+                document.getElementById("imagen").src = imagenes[indice];
+            }
+        </script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+h1{
+       color: whitesmoke;
+       font-size: 36px;
+       font-weight: bold;
+}
+
+h2 {
+       color: rgb(164, 16, 16);
+       font-size: 24px;
+       font-weight: bold;
+}
+h3 {
+       color: rgb(164, 16, 16);
+       font-size: 24px;
+       font-weight: bold;
+}
+
+h4{
+       color: whitesmoke;
+       font-size: 24px;
+       font-weight: bold;
+}
+
+a{
+       color: whitesmoke;
+       font-size: 18px;
+       font-weight: bold;
+}
+      
+p {
+       font-family: times;
+       font-size: 18px;
+       color:black;
+}
+
+th{
+       color: whitesmoke;
+       font-size: 18px;
+       font-weight: bold;
+}
+
+td {
+       font-family: times;
+       font-size: 18px;
+       color:black;
+}
+
+li {
+       font-family: times;
+       font-size: 18px;
+       color:black;
+}
